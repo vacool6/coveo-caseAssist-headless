@@ -63,11 +63,7 @@ export const QuickView = (props: IQuickView) => {
         size={{ base: "xs", sm: "md", md: "xl" }}
         isCentered
       >
-        <ModalOverlay
-          backdropFilter="auto"
-          backdropInvert="80%"
-          backdropBlur="2px"
-        />
+        <ModalOverlay backdropFilter="auto" backdropBlur="8px" />
         <ModalContent p={4}>
           <ModalHeader my={2}>{title}</ModalHeader>
           <ModalCloseButton color="white" bg="red.500" />
