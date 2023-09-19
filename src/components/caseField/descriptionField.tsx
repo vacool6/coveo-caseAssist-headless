@@ -21,8 +21,6 @@ export const DescriptionField = (props: IDescriptionField) => {
     });
   }, [controller, description]);
 
-  // console.log(controller);
-
   return (
     <>
       <FormControl>
@@ -39,9 +37,3 @@ export const DescriptionField = (props: IDescriptionField) => {
     </>
   );
 };
-
-// To use
-// <DescriptionField
-//       description={""}
-//       controller={caseFieldController}
-// />
